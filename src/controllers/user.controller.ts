@@ -9,7 +9,7 @@ import {
     Route,
     SuccessResponse,
   } from "tsoa";
-  import { User } from "../models/user";
+  import { User } from "../models/user.model";
   import { UsersService, UserCreationParams } from "../services/user.service";
 
   @Route("users")
@@ -32,4 +32,3 @@ import {
       return;
     }
   }
-  
